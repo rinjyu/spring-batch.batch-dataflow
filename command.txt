@@ -1,0 +1,2 @@
+java -jar spring-cloud-skipper-server-2.8.1.jar
+java -jar spring-cloud-dataflow-server-2.10.2.jar --spring.datasource.url=jdbc:postgresql://127.0.0.1:5432/batchdb --spring.datasource.username=batch --spring.datasource.password=batch --spring.datasource.driver-class-name=org.postgresql.Driver --spring.flyway.enabled=false --spring.task.tablePrefix=TASK_
